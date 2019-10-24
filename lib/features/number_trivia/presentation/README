@@ -1,0 +1,5 @@
+This is the stuff you're used to from "unclean" Flutter architecture. You obviously need widgets to display something on the screen. These widgets then dispatch events to the Bloc and listen for states (or an equivalent if you don't use Bloc for state management).
+
+We will have only a single page with widgets called NumberTriviaPage with a single NumberTriviaBloc.
+
+Note that the "Presentation Logic Holder" (e.g. Bloc) doesn't do much by itself. It delegates all its work to use cases. At most, the presentation layer handles basic input conversion and validation.

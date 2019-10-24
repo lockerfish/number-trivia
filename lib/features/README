@@ -1,0 +1,1 @@
+Every "feature" of the app, like getting some interesting trivia about a number, will be divided into 3 layers - presentation, domain and data. 
